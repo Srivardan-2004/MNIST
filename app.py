@@ -1,10 +1,9 @@
 # streamlit_app.py
 import streamlit as st
-import tensorflow as tf
 import numpy as np
 
 # Load the model
-model = tf.keras.models.load_model('mnist.keras')
+
 
 # Define the Streamlit app
 st.title("MNIST Digit Prediction")
